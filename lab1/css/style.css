@@ -1,0 +1,114 @@
+body {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1440px;
+  background: linear-gradient(90deg, #4a2071, #a045f5);
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-left: 30px;
+  border-radius: 10px;
+}
+.main {
+  margin-top: 20px;
+}
+.main .points_container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.button_container {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+.button {
+  width: 90px;
+  text-align: center;
+  display: inline-block;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  border: #4a2071 1px solid;
+  color: #4a2071;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 20px auto;
+  transition: 0.5s;
+  border-radius: 0px;
+}
+.button:hover {
+  top: 5px;
+  transition: 0.5s;
+  color: white;
+  background: linear-gradient(90deg, #4a2071, #a045f5);
+  border: black 1px solid;
+  border-radius: 5px;
+}
+.button:active {
+  color: #000;
+  border: #1A1A1A 1px solid;
+  transition: 0.07s;
+  background-color: #FFF;
+}
+.content_solution {
+  margin-left: 30px;
+  margin-top: 10px;
+  max-height: 500px;
+  overflow: auto;
+}
+.points_container {
+  padding-bottom: 20px;
+}
+#input_number_people {
+  width: 200px;
+  border-radius: 3px;
+  padding: 2px;
+}
+.text_solution {
+  font-size: 20px;
+}
+#get_name {
+  display: none;
+  margin-top: 15px;
+}
+#get_name * {
+  margin-right: 5px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+#empty_input,
+.warning {
+  font-size: 20px;
+  color: red;
+}
+.out_lines {
+  height: 10px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+th,
+tr {
+  border: 1px solid grey;
+  padding: 10px;
+}
+.mouseHover {
+  width: 300px;
+  height: 50px;
+  background-color: cadetblue;
+  display: block;
+}
+.mouseHover p {
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  display: block;
+}

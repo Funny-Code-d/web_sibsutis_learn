@@ -1,0 +1,33 @@
+// main: ../css/style.less
+
+  .button {
+    width:90px;
+    text-align:center;
+    display:inline-block;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    border: @fontPurple 1px solid;
+    color: @fontPurple;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+     margin: 20px auto;
+    transition: .5s;
+    border-radius: 0px;
+  }
+  .button:hover {
+    top: 5px;
+    transition: .5s;
+    color: @fontWhite;
+    background: @purpleGradient;
+    border: @fontBlack 1px solid;
+    border-radius: 5px;
+  }
+  .button:active {
+    color: #000;
+    border: #1A1A1A 1px solid;
+    transition: .07s;
+    background-color: #FFF;
+  }
