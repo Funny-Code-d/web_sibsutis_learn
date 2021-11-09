@@ -59,11 +59,11 @@ $(document).ready(function(){
 
     //-------------------------------------------------------------------------------------------------------
     str = ''
-    let firstDivider = 5
-    let secondDivider = 11
+    let firstDivider = 3
+    let secondDivider = 7
     let residue = 2
     let startNumber = 1
-    let endNumber = 1000
+    let endNumber = 100
     $("#dividerNumber").text("Числа от " + startNumber + " до " + endNumber + " которые делятся на " + firstDivider + " и на " + secondDivider + " с остатком " + residue)
     for (let i = startNumber; i < endNumber + 1; i++){
         if ( (i % firstDivider == residue) && (i % secondDivider == residue) )
@@ -101,7 +101,7 @@ $(document).ready(function(){
         }
         let fourthPartTime1 = {
             start: 21 * 60,
-            end: 24 * 00,
+            end: 24 * 0,
             time: "Ночь"
         }
         let fourthPartTime2 = {

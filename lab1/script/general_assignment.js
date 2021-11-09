@@ -71,7 +71,7 @@ $(document).ready(function(){
 	// Пункт 3
 
 	// Вывод линий разной длинны
-	let numberLines = 3
+	let numberLines = 10
 
 	for (let i = 0; i < numberLines; i++)
 	{
